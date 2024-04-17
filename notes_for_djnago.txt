@@ -1,0 +1,63 @@
+
+                            this notes for django create samll project notes
+                        --------------------------------------------------------
+
+
+1.frist create folder for your project 
+
+cmd:mkdir your_folder_name
+
+2.go inside that folder
+
+cmd:cd folder_name
+
+3.create virtula environment
+
+cmd:py -v venv your_virtula_environment_name
+
+4.ativate the virtula environment
+
+cmd: your_virtula_environment_name\Scripts\activate
+
+5.now install django
+
+cmd: pip install django
+
+6.now check python version and django version
+
+cmd: py --version   -->python 
+
+cmd: django-admin --version    -->djnago
+
+7.now create project folder for you projectfolder
+
+cmd: django-admin startproject project_folder_name
+
+8.now go to inside project folder 
+
+cmd: cd project_folder_name
+
+9.now run the your project 
+
+cmd: py manage.py runserver
+
+ this below code is output 
+
+ Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+April 17, 2024 - 12:22:52
+Django version 5.0.4, using settings 'project_cone_folder.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+
+for their you will take the http://127.0.0.1:8000/ and run the in chrome you will get succfull message 
+
+10.now create app folder 
+
+cmd: django-admin appfolder app_folder_name
